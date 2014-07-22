@@ -292,6 +292,7 @@
     #resume {
 		padding:20px;
 		overflow:hidden;
+		display:none;
 	}
 	.skills-section, .timeline-section {
 		float:left;
