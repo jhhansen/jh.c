@@ -143,6 +143,7 @@ jQuery(document).ready(function(){
 			$map.gMap({
 				address: $address,
 				zoom: 12,
+				scrollwheel: false,
 				markers: [
 					{ 'address' : $address }
 				]
