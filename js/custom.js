@@ -4,6 +4,9 @@ jQuery(document).ready(function(){
 	/*	Custom Functions
 	/* ---------------------------------------------------------------------- */
 	
+	// Fix flashing frame
+	$('body.no-js').removeClass('no-js');
+
 	// Needed variables
 	var $logo 	= $('#logo');
 		
